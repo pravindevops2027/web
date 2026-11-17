@@ -1,6 +1,6 @@
 FROM httpd
 WORKDIR /usr/local/apache2/htdocs/
-COPY index.html
+COPY index.html .
 COPY interview.html .
 COPY learning.html .
 COPY script.js .
